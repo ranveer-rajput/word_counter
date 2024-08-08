@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Box from './componets/Box';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{marginLeft:"100px",display:"flex",flexDirection:"column"}}>
+      <h3>letter Counter</h3>
+      <textarea style={{ width: '400px', height: '200px' }} placeholder='enter your name'></textarea>
+      <br />
+      <div style={{ display: "flex", }}>
+        <Box label1={'0'} br lable2={'sentence'} />
+        <Box label1={'0'} br lable2={'sentence'} />
+        <Box label1={'0'} br lable2={'sentence'} />
     </div>
+
+     
+    </div>
+
+  
   );
 }
 
