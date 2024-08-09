@@ -9,9 +9,9 @@ function App() {
       <textarea style={{ width: '400px', height: '200px' }} placeholder='enter your name'></textarea>
       <br />
       <div style={{ display: "flex", }}>
-        <Box label1={'0'} br lable2={'sentence'} />
-        <Box label1={'0'} br lable2={'sentence'} />
-        <Box label1={'0'} br lable2={'sentence'} />
+        <Box label1={'0'} br label2={'sentence'} />
+        <Box label1={'0'} br label2={'sentence'} />
+        <Box label1={'0'} br label2={'sentence'} />
     </div>
 
      
